@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="counter.css">
+  
+ 
+</head>
+<body>
+    <div class="container">
+      <div id="first-header">
+        <h1>Social Media Dashboard</h1>
+        <p class="light-blue"><b>Total Followers: 7,174</b></p>
+        <button onclick="toggleTheme()">Switch theme</button>
+      </div>
+      <div class="grid">
+        <div class="col">
+          <div class="card-container">
+            <div class="card" id="b-card-facebook">
+              <div class="border"></div>
+              <p class="light-blue social-username">
+                <i class="fab fa-facebook-square social-icon"></i>
+                <b><small>/blackellis.ro</small></b>
+              </p>
+              <h1>1593</h1>
+              <p class="light-blue data-type">FOLLOWERS</p>
+              <p class="data-today text-sucess"><small><i class="fas fa-caret-up"></i><br><b>12 Today</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card" id="b-card-twitter">
+              <div class="border"></div>
+              <p class="light-blue social-username">
+                <i class="fab fa-twitter-square social-icon"></i>
+                <b><small>@BlackellisN</small></b>
+              </p>
+              <h1>1500</h1>
+              <p class="light-blue data-type">FOLLOWERS</p>
+              <p class="data-today text-sucess"><small><i class="fas fa-caret-up"></i><br><b>99 Today</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card" id="b-card-instagram">
+              <div class="border"></div>
+              <p class="light-blue social-username">
+                <i class="fab fa-instagram social-icon"></i>
+                <b><small>/black.ellis</small></b>
+              </p>
+              <h1>1242</h1>
+              <p class="light-blue data-type">FOLLOWERS</p>
+              <p class="data-today text-sucess"><small><i class="fas fa-caret-up"></i><br><b>1099 Today</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card" id="b-card-pinterest">
+              <div class="border"></div>
+              <p class="light-blue social-username">
+                <i class="fab fa-pinterest social-icon"></i>
+                <b><small>/blackellis0792</small></b>
+              </p>
+              <h1>2839</h1>
+              <p class="light-blue data-type">FOLLOWERS</p>
+              <p class="data-today text-danger"><small><i class="fas fa-caret-down"></i><br><b>144 Today</b></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="hook">
+        <h1>Overiew - Today</h1>
+      </div>
+      <div class="grid">
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-facebook">
+              <p class="small-text light-blue"><small><b>Page Views</b></small></p>
+              <p class="small-logo"><i class="fab fa-facebook-square social-icon"></i></p>
+              <h1 class="small-number"><small>87</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>7%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-facebook">
+              <p class="small-text light-blue"><small><b>Likes</b></small></p>
+              <p class="small-logo"><i class="fab fa-facebook-square social-icon"></i></p>
+              <h1 class="small-number"><small>52</small></h1>
+              <p class="small-percent text-danger"><small><i class="fas fa-caret-down"></i><br><b>2%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-instagram">
+              <p class="small-text light-blue"><small><b>Likes</b></small></p>
+              <p class="small-logo"><i class="fab fa-instagram social-icon"></i></p>
+              <h1 class="small-number"><small>461</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>245%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-instagram">
+              <p class="small-text light-blue"><small><b>Profile Views</b></small></p>
+              <p class="small-logo"><i class="fab fa-instagram social-icon"></i></p>
+              <h1 class="small-number"><small>220</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>257%</b></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-twitter">
+              <p class="small-text light-blue"><small><b>Retweets</b></small></p>
+              <p class="small-logo"><i class="fab fa-twitter-square social-icon"></i></p>
+              <h1 class="small-number"><small>87</small></h1>
+              <p class="small-percent text-danger"><small><i class="fas fa-caret-down"></i><br><b>7%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-twitter">
+              <p class="small-text light-blue"><small><b>Likes</b></small></p>
+              <p class="small-logo"><i class="fab fa-twitter-square social-icon"></i></p>
+              <h1 class="small-number"><small>52</small></h1>
+              <p class="small-percent text-danger"><small><i class="fas fa-caret-down"></i><br><b>2%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-pinterest">
+              <p class="small-text light-blue"><small><b>Likes</b></small></p>
+              <p class="small-logo"><i class="fab fa-pinterest social-icon"></i></p>
+              <h1 class="small-number"><small>5462</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>245%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-pinterest">
+              <p class="small-text light-blue"><small><b>Impressions
+                  </b></small></p>
+              <p class="small-logo"><i class="fab fa-pinterest social-icon"></i></p>
+              <h1 class="small-number"><small>52k</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>257%</b></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <script type="text/javascript" >function toggleTheme() {
+  window.theme = typeof window.theme === "string" ? window.theme : "light";
+  var switchToTheme = window.theme === "light" ? "dark" : "light";
+  window.theme = switchToTheme;
+  document.querySelector("body").setAttribute("data-theme", switchToTheme);
+}
+</script>
+  </body>
+  </html>
+
